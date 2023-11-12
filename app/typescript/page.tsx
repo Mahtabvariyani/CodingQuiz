@@ -1,11 +1,12 @@
-import React from 'react'
+import Loading from '@/components/shared/Loading'
+import React from "react";
 
 const page = () => {
   return (
-    <div>
-      
+    <div> 
+      <Loading />
     </div>
-  )
-}
+  );
+};
 
-export default page
+export default page;
