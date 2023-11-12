@@ -4,7 +4,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div>
-      <footer className=" rounded-lg shadow m-4 text-fuchsia-600">
+      <footer className=" rounded-lg shadow m-4 text-fuchsia-600 backdrop-blur-md">
         <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
           <span className="text-sm text-fuchsia-200 sm:text-center dark:text-fuchsia-400">
             © 2023{" "}
