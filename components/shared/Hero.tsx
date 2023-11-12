@@ -11,7 +11,7 @@ export default function Example() {
           <p className="mt-2 text-3xl font-bold tracking-tight text-gray-300 sm:text-4xl">
             Practice Makes Perfect
           </p>
-          <p className="mt-6 text-lg leading-8 text-gray-600">
+          <p className="mt-6 text-lg leading-8 text-gray-300">
             Quis tellus eget adipiscing convallis sit sit eget aliquet quis. Suspendisse eget egestas a elementum
             pulvinar et feugiat blandit at. In mi viverra elit nunc.
           </p>
@@ -20,13 +20,13 @@ export default function Example() {
           <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
             {features.map((feature) => (
               <div key={feature.name} className="relative pl-16 backdrop-blur-md p-3">
-                <dt className="text-base font-semibold leading-7 text-fuchsia-900">
+                <dt className="text-base font-semibold leading-7 text-fuchsia-400">
                   <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-fuchsia-500">
                     <feature.icon className="h-6 w-6 text-white" aria-hidden="true" />
                   </div>
                   {feature.name}
                 </dt>
-                <dd className="mt-2 text-base leading-7 text-gray-400">{feature.description}</dd>
+                <dd className="mt-2 text-base leading-7 text-gray-200">{feature.description}</dd>
               </div>
             ))}
           </dl>
