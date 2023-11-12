@@ -32,7 +32,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover; /* or background-size: cover; depending on your preference */
   background-position: center center;
-  background-attachment: fixed; /* Fix the background image */
   align-items: center; /* Center vertically */
   justify-content: center; /* Center horizontally */
 }
