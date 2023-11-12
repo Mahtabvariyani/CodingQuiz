@@ -30,7 +30,7 @@ body {
   background-image: url('/room.jpg');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain; /* or background-size: cover; depending on your preference */
+  background-size: cover; /* or background-size: cover; depending on your preference */
   background-position: center center;
   background-attachment: fixed; /* Fix the background image */
   align-items: center; /* Center vertically */
