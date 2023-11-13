@@ -16,12 +16,16 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const backgroundStyle = {
+    background: `linear-gradient(rgba(var(--background-start-rgb), 0.6), rgba(var(--background-end-rgb), 0.3)), url("/room.jpg") center / cover no-repeat`,
+  };
+
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body style={backgroundStyle} className={inter.className}>
         <Navbar />
         {children}
-        <Footer/>
+        <Footer />
       </body>
     </html>
   );
