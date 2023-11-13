@@ -74,7 +74,7 @@ export const navlinks = [
     questions: [
       {
         id: 1,
-        question: 'What is the capital of France?',
+        question: 'What is the capital of France? ',
         answers: ['Madrid', 'Paris', 'Rome', 'Berlin'],
         correctAnswer: 'Paris',
       },

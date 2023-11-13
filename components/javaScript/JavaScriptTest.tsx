@@ -54,10 +54,10 @@ const second = () => {
   };
 
   return (
-    <div className="w-full max-w-[570px] rounded-[20px] backdrop-blur-md py-12 px-8 text-center md:py-[60px] md:px-[70px]  h-[70vh]">
+    <div className="w-full max-w-[570px] rounded-[20px] backdrop-blur-md py-12 px-8 text-center md:py-[60px] md:px-[70px]  h-[70vh] ">
       {!showResult ? (
         <div>
-          <h6 className="text-purple-200 pb-2 text-2xl font-bold sm:text-2xl">
+          <h6 className="text-purple-200 pb-2 text-xs md:text-3xl md:text-bold  sm:text-sm ">
             {questions[activeQuestion].question}
           </h6>
           <span className="bg-indigo-500 mx-auto mt-4 mb-6 inline-block h-1 w-[90px] rounded"></span>
